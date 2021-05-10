@@ -1,0 +1,9 @@
+<h1>Customer Form </h1>
+<div>
+    <form method ="POST" action="/add_detail/">
+        {% csrf_token %}
+        <input type="text" name="firstname1">
+        <input type="text" name="lastname1">
+        <input type="submit" name="submit">
+    </form>
+</div>
